@@ -1,0 +1,100 @@
+main {
+    background-color: #ffffff;
+    .fotos-main {
+        background-image: url(../assets/portada-3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 30rem;
+        text-align: center;
+        width:  100%;
+        opacity: 75%;
+        .hero__title {
+            color: #D9A79C;
+            text-shadow: 1px 1px 1px #000;
+            font-size: 2.5rem;
+        }
+        p {
+            font-size: 1.2rem;
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            font-style: italic;
+        }
+        .button-13 {
+            width: 256px;
+            height: 82px;
+            padding: 0px 10px 0px 10px;
+            background: #FFFFFF;
+            color: #5A5A5A;
+            border: 2px solid white;
+            border-radius: 24px 24px 24px 24px;
+            text-align: center;
+            text-decoration: none;
+        }
+    }
+    .img-nos{
+        background-image: url(../assets/imagen-sobre-nosotros-fondo.jpg);
+        height: 30rem;
+        color: white;
+        text-align: center;
+    }
+}
+
+.contenedorgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 45rem;
+    grid-template-areas: 
+    "colm1 colm2 colm3"
+    ;
+}
+
+.colm1 {
+    grid-area: colm1;
+    background-image: url(../assets/carrera-de-pasteleria.jpg);
+}
+
+.colm2 {
+    grid-area: colm2; 
+    background-image: url(../assets/carrera-de-sommelier.jpg);
+}
+
+.colm3 {
+    grid-area: colm3;
+    background-image: url(../assets/carrera-de-bartender.jpg);
+}
+
+.contenedorgrid div {
+    width: 86%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70%;
+    text-align: center;
+    opacity: 70%;
+}
+
+.colm1 img {
+    width: 80%;
+    opacity: 70%;
+}
+
+.colm2 img{
+    width: 80%;
+    opacity: 70%;
+}
+
+.colm3 img {
+    width: 80%;
+    opacity: 70%;
+}
+
+.button-13 {
+    width: 256px;
+    height: 82px;
+    padding: 0px 10px 0px 10px;
+    background: #FFFFFF;
+    color: #5A5A5A;
+    border: 2px solid white;
+    border-radius: 24px 24px 24px 24px;
+    text-align: center;
+    text-decoration: none;
+}

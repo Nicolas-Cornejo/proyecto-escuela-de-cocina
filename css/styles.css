@@ -1,286 +1,250 @@
-/* 
-#D9CCCC
-#D9A79C
-#8C7980
-#735448
-#262526
- */
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
- /* ----------------------------- reset ------------------------------ */
-
-*{
-    padding: 0;
-    margin: 0 auto;
-    width: auto;
-}
-
-body{
-    font-family: "Poppins", sans-serif;
-}
-
-.logo{
-    width: 100px;
-    height: 100px;
-}
-
- /* ------------------------------- Navbar -------------------------------- */
-
-.container-fluid {   
-    background-color: #aff0fc;
-}
-
-ul{
-    list-style: none; 
-    display: flex;
-    align-items: center; 
-	width: 610px;
-	height: 60px;
-	text-align: center;
-}
-
-ul li{
-    padding: 10px;
-}
-
-ul li a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-
- /* ---------------------------- Contenido principal ---------------------------- */
-
-main {
-    background-color: #ffffff;
-}
-
-.hero__title{
-    color: #D9A79C;
-    text-shadow: 1px 1px 1px #000;
-    font-size: 2.5rem;
-}
-input {
-    display: block;
-}
-select {
-    display: block;
-}
-
-textarea {
-    display: block;
-    width: 457px;
-	height: 146px;
-	padding: 6px 8px 4px 10px;
-	border-width: 2px;
-	border-style: solid;
-	border-radius: 6px 6px 6px 6px;
-	text-align: left;
-}
-
-.bto-enviar {
-    background-color: #D9A79C;
-    border-radius: 2%;
-    width: 10rem;
-    height: 3rem;
-}
-
-p {
-    font-size: 2rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0 auto;
+  width: auto;
 }
 
 .inscribite- {
-	width: 600px;
-	height: 600px;
-	padding: 8px 8px 8px 8px;
-	background: #FAFAFA;
-	border-radius: 6px 6px 6px 6px;
+  width: 600px;
+  height: 630px;
+  padding: 8px 8px 8px 8px;
+  background: #FAFAFA;
+  border-radius: 6px 6px 6px 6px;
+}
+.inscribite- .ins-cuadrado {
+  width: 530px;
+  height: 50px;
+  padding: 8px 8px 8px 8px;
+  background: #FAFAFA;
+  border-radius: 6px 6px 6px 6px;
 }
 
-.ins-cuadrado {
-	width: 517px;
-	height: 50px;
-	padding: 8px 8px 8px 8px;
-	background: #FAFAFA;
-	border-radius: 6px 6px 6px 6px;
+.maps {
+  width: 100%;
 }
-/*---------------------------------------- index ----------------------------------------*/
 
-.foto-cocinera {
-    width: 100%;
-    height: 750px;
-    opacity: 70%;
+html body {
+  font-family: "Poppins", sans-serif;
+}
+html body header .navbar .navbar-brand .container-fluid .collapse .navbar-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 610px;
+  height: 60px;
+  text-align: center;
+}
+html body header .navbar .navbar-brand .container-fluid .collapse .navbar-nav .nav-item {
+  padding: 10px;
+}
+html body header .navbar .navbar-brand .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
 
+footer {
+  background-color: #76faff;
+  text-align: center;
+}
+
+main {
+  background-color: #ffffff;
+}
+main .fotos-main {
+  background-image: url(../assets/portada-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30rem;
+  text-align: center;
+  width: 100%;
+  opacity: 75%;
+}
+main .fotos-main .hero__title {
+  color: #D9A79C;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 2.5rem;
+}
+main .fotos-main p {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+main .fotos-main .button-13 {
+  width: 256px;
+  height: 82px;
+  padding: 0px 10px 0px 10px;
+  background: #FFFFFF;
+  color: #5A5A5A;
+  border: 2px solid white;
+  border-radius: 24px 24px 24px 24px;
+  text-align: center;
+  text-decoration: none;
+}
+main .img-nos {
+  background-image: url(../assets/imagen-sobre-nosotros-fondo.jpg);
+  height: 30rem;
+  color: white;
+  text-align: center;
 }
 
 .contenedorgrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 45rem;
-    grid-template-areas: 
-    "colm1 colm2 colm3"
-    ;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 45rem;
+  grid-template-areas: "colm1 colm2 colm3";
 }
 
 .colm1 {
-    grid-area: colm1;
-    background-image: url(../assets/carrera-de-pasteleria.jpg);
+  grid-area: colm1;
+  background-image: url(../assets/carrera-de-pasteleria.jpg);
 }
 
 .colm2 {
-    grid-area: colm2; 
-    background-image: url(../assets/carrera-de-sommelier.jpg);
+  grid-area: colm2;
+  background-image: url(../assets/carrera-de-sommelier.jpg);
 }
 
 .colm3 {
-    grid-area: colm3;
-    background-image: url(../assets/carrera-de-bartender.jpg);
+  grid-area: colm3;
+  background-image: url(../assets/carrera-de-bartender.jpg);
 }
 
 .contenedorgrid div {
-    width: 86%;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 70%;
-    text-align: center;
-    opacity: 70%;
+  width: 86%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70%;
+  text-align: center;
+  opacity: 70%;
 }
 
 .colm1 img {
-    width: 80%;
-    opacity: 70%;
+  width: 80%;
+  opacity: 70%;
 }
 
-.colm2 img{
-    width: 80%;
-    opacity: 70%;
+.colm2 img {
+  width: 80%;
+  opacity: 70%;
 }
 
 .colm3 img {
-    width: 80%;
-    opacity: 70%;
-}
-
-.fotos-main {
-    background-image: url(../assets/portada-3.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 30rem;
-    text-align: center;
-    width:  100%;
-    opacity: 75%;
-}
-.main-foto h1, h2, p {
-    text-shadow: 0px 0px 3px black;
-}
-
-/*---------------------------------------- sobre nosotros ----------------------------------------*/
-
-.foto-nos {
-    width: 100%;
-    height: 800px;
-    opacity: 70%;
-}
-.img-nos{
-    background-image: url(../assets/imagen-sobre-nosotros-fondo.jpg);
-    height: 30rem;
-    color: white;
-    text-align: center;
+  width: 80%;
+  opacity: 70%;
 }
 
 .button-13 {
-	width: 256px;
-	height: 82px;
-	padding: 0px 10px 0px 10px;
-	background: #FFFFFF;
-	color: #5A5A5A;
-    border: 2px solid white;
-	border-radius: 24px 24px 24px 24px;
-	text-align: center;
-    text-decoration: none;
+  width: 256px;
+  height: 82px;
+  padding: 0px 10px 0px 10px;
+  background: #FFFFFF;
+  color: #5A5A5A;
+  border: 2px solid white;
+  border-radius: 24px 24px 24px 24px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.inscribite- {
+  width: 600px;
+  height: 630px;
+  padding: 8px 8px 8px 8px;
+  background: #FAFAFA;
+  border-radius: 6px 6px 6px 6px;
+}
+.inscribite- .ins-cuadrado {
+  width: 530px;
+  height: 50px;
+  padding: 8px 8px 8px 8px;
+  background: #FAFAFA;
+  border-radius: 6px 6px 6px 6px;
+}
+
+.maps {
+  width: 100%;
+}
+
+.cent-egresados {
+  text-align: center;
+}
+.cent-egresados .egresados img {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-left: 300px;
+}
+
+.cent-cursos {
+  text-align: center;
+}
+.cent-cursos p {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.cent-cursos .img-cursos {
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .img-main-nos {
-    background-image: url(../assets/imagen-sobre-nosotros-fondo.jpg);
-    height: 85rem;
-    color: rgb(255, 255, 255);
-    opacity: 87%;
-    text-align: center;
+  background-image: url(../assets/imagen-sobre-nosotros-fondo.jpg);
+  height: 50rem;
+  color: rgb(255, 255, 255);
+  opacity: 87%;
+  text-align: center;
 }
-.h1-nos {
-    font-size: 4rem;
+.img-main-nos .h1-nos {
+  font-size: 4rem;
 }
-
-.sobnosotros h2, p {
-    text-shadow: 0px 0px 3px black;
+.img-main-nos .sobnosotros {
+  text-shadow: 0px 0px 3px black;
 }
-
-/*---------------------------------------- sobre nosotros ----------------------------------------*/
-
-.cent-cursos {
-    text-align: center;
-}
-
-.img-cursos {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-/*---------------------------------------- egresados ----------------------------------------*/
-
-.cent-egresados {
-    text-align: center;
-}
-
-.egresados {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-/*---------------------------------------- footer ----------------------------------------*/
-
-footer {
-    background-color: #76faff;
-    text-align: center;
-    
-}
-
 
 /*---------------------------------------- mobil ----------------------------------------*/
-@media screen and (min-width: 320px) and (max-width: 767px){
-
-    .contenedorgrid {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas: 
-        "colm1"
-        "colm2"
-        "colm3"
-        ;
-    }
-
-    .fotos-main p {
-        font-size: 1rem;
-    }
-
-    .alin-let {
-        font-size: 1.3rem;
-    }
-
-    .colm2 {
-        grid-area: colm2; 
-        background-image: url(../assets/carrera-de-sommelier-recortar.jpg);
-    }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  body {
+    height: 10rem;
+  }
+  .contenedorgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "colm1" "colm2" "colm3";
+  }
+  .fotos-main {
+    font-size: 1rem;
+  }
+  .alin-let p {
+    font-size: 0.5rem;
+  }
+  .colm2 {
+    grid-area: colm2;
+    background-image: url(../assets/carrera-de-sommelier-recortar.jpg);
+  }
+  .img-cursos {
+    width: 20rem;
+  }
+  .img-carreras {
+    width: 20rem;
+  }
+  .egresados {
+    width: 20rem;
+  }
 }
 /*---------------------------------------- tablet----------------------------------------*/
-@media screen and (min-width: 768px) and (max-width: 1023px){
-
-}
-/*---------------------------------------- desktop ----------------------------------------*/
-@media screen and (min-width: 1024px) {
-
-}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .img-cursos {
+    width: 45rem;
+  }
+  .img-carreras {
+    width: 45rem;
+  }
+  .egresados {
+    width: 30rem;
+  }
+}/*# sourceMappingURL=styles.css.map */

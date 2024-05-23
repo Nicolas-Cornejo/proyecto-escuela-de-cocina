@@ -1,0 +1,56 @@
+
+/*---------------------------------------- mobil ----------------------------------------*/
+@media screen and (min-width: 320px) and (max-width: 767px){
+
+    body {
+        height: 10rem;
+    }
+    .contenedorgrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "colm1"
+        "colm2"
+        "colm3"
+        ;
+    }
+
+
+    .fotos-main {
+        font-size: 1rem;
+    }
+
+    .alin-let p {
+        font-size: 0.5rem;
+    }
+
+    .colm2 {
+        grid-area: colm2;
+        background-image: url(../assets/carrera-de-sommelier-recortar.jpg);
+    }
+
+    .img-cursos {
+        width: 20rem;
+    }
+    .img-carreras {
+        width: 20rem;
+    }
+    .egresados {
+        width: 20rem;
+    }
+}
+/*---------------------------------------- tablet----------------------------------------*/
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    .img-cursos {
+        width: 45rem;
+    }
+    .img-carreras {
+        width: 45rem;
+    }
+    .egresados {
+        width: 30rem;
+    }
+
+}
