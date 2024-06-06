@@ -30,14 +30,49 @@
         background-image: url(../assets/carrera-de-sommelier-recortar.jpg);
     }
 
-    .img-cursos {
-        width: 20rem;
+
+    .letra-nos {
+        font-size: 0.5rem;
     }
-    .img-carreras {
-        width: 20rem;
+
+
+    .cent-cursos {
+        text-align: center;
+        img {
+            width: 300px;
+        }
     }
-    .egresados {
-        width: 20rem;
+    .cent-egresados {
+        text-align: center;
+        img {
+            width: 300px;
+        }
+    }
+    .inscribite- {
+        width: 300px;
+        height: 630px;
+        padding: 8px 8px 8px 8px;
+        background: #FAFAFA;
+        border-radius: 6px 6px 6px 6px;
+        .ins-cuadrado {
+            width: 230px;
+            height: 40px;
+            padding: 8px 8px 8px 8px;
+            background: #FAFAFA;
+            border-radius: 6px 6px 6px 6px;
+            
+        }
+    }
+    .maps{
+        width: 100%;
+    }
+    main {
+        .cent-carreras {
+            text-align: center;
+            img {
+                width: 300px;
+            }
+        }
     }
 }
 /*---------------------------------------- tablet----------------------------------------*/
@@ -46,8 +81,11 @@
     .img-cursos {
         width: 45rem;
     }
-    .img-carreras {
-        width: 45rem;
+    .cent-carreras {
+        text-align: center;
+        img {
+            width: 200px;
+        }
     }
     .egresados {
         width: 30rem;

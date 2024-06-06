@@ -10,14 +10,24 @@ main {
         opacity: 75%;
         .hero__title {
             color: #D9A79C;
-            text-shadow: 1px 1px 1px #000;
+            text-shadow: 1px 1px 1px #ff0000;
             font-size: 2.5rem;
+            h2 {
+                font-size: 1.8rem;
+                @extend .extend-letras;
+            }
+            p {
+                font-size: 1.2rem;
+                @extend .extend-letras;
+            }
+        }
+        h2 {
+            font-size: 1.8rem;
+            @extend .extend-letras;
         }
         p {
             font-size: 1.2rem;
-            font-family: "Poppins", sans-serif;
-            font-weight: 500;
-            font-style: italic;
+            @extend .extend-letras;
         }
         .button-13 {
             width: 256px;
@@ -36,6 +46,10 @@ main {
         height: 30rem;
         color: white;
         text-align: center;
+    }
+    .alin-let {
+        font-size: 1.2rem;
+        @extend .extend-letras;
     }
 }
 

@@ -5,6 +5,14 @@
   width: auto;
 }
 
+.extend-letras, main .alin-let, main .fotos-main p, main .fotos-main h2, main .fotos-main .hero__title p, main .fotos-main .hero__title h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  text-shadow: 1px 1px 1px #ff0000;
+  color: #ee3c14;
+}
+
 .inscribite- {
   width: 600px;
   height: 630px;
@@ -44,7 +52,7 @@ html body header .navbar .navbar-brand .container-fluid .collapse .navbar-nav .n
 }
 
 footer {
-  background-color: #76faff;
+  background-color: #d87a23;
   text-align: center;
 }
 
@@ -62,14 +70,20 @@ main .fotos-main {
 }
 main .fotos-main .hero__title {
   color: #D9A79C;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 1px #ff0000;
   font-size: 2.5rem;
+}
+main .fotos-main .hero__title h2 {
+  font-size: 1.8rem;
+}
+main .fotos-main .hero__title p {
+  font-size: 1.2rem;
+}
+main .fotos-main h2 {
+  font-size: 1.8rem;
 }
 main .fotos-main p {
   font-size: 1.2rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: italic;
 }
 main .fotos-main .button-13 {
   width: 256px;
@@ -87,6 +101,9 @@ main .img-nos {
   height: 30rem;
   color: white;
   text-align: center;
+}
+main .alin-let {
+  font-size: 1.2rem;
 }
 
 .contenedorgrid {
@@ -169,26 +186,15 @@ main .img-nos {
 .cent-egresados {
   text-align: center;
 }
-.cent-egresados .egresados img {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  padding-left: 300px;
+.cent-egresados img {
+  width: 500px;
 }
 
 .cent-cursos {
   text-align: center;
 }
-.cent-cursos p {
-  font-size: 2rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-.cent-cursos .img-cursos {
-  justify-content: center;
-  align-items: center;
-  display: flex;
+.cent-cursos img {
+  width: 500px;
 }
 
 .img-main-nos {
@@ -226,14 +232,43 @@ main .img-nos {
     grid-area: colm2;
     background-image: url(../assets/carrera-de-sommelier-recortar.jpg);
   }
-  .img-cursos {
-    width: 20rem;
+  .letra-nos {
+    font-size: 0.5rem;
   }
-  .img-carreras {
-    width: 20rem;
+  .cent-cursos {
+    text-align: center;
   }
-  .egresados {
-    width: 20rem;
+  .cent-cursos img {
+    width: 300px;
+  }
+  .cent-egresados {
+    text-align: center;
+  }
+  .cent-egresados img {
+    width: 300px;
+  }
+  .inscribite- {
+    width: 300px;
+    height: 630px;
+    padding: 8px 8px 8px 8px;
+    background: #FAFAFA;
+    border-radius: 6px 6px 6px 6px;
+  }
+  .inscribite- .ins-cuadrado {
+    width: 230px;
+    height: 40px;
+    padding: 8px 8px 8px 8px;
+    background: #FAFAFA;
+    border-radius: 6px 6px 6px 6px;
+  }
+  .maps {
+    width: 100%;
+  }
+  main .cent-carreras {
+    text-align: center;
+  }
+  main .cent-carreras img {
+    width: 300px;
   }
 }
 /*---------------------------------------- tablet----------------------------------------*/
@@ -241,10 +276,19 @@ main .img-nos {
   .img-cursos {
     width: 45rem;
   }
-  .img-carreras {
-    width: 45rem;
+  .cent-carreras {
+    text-align: center;
+  }
+  .cent-carreras img {
+    width: 200px;
   }
   .egresados {
     width: 30rem;
   }
+}
+.cent-carreras {
+  text-align: center;
+}
+.cent-carreras img {
+  width: 500px;
 }/*# sourceMappingURL=styles.css.map */
